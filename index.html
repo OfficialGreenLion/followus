@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Green Lion - Follow Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: url('background.png') no-repeat center center;
+            background-size: cover;
+            min-height: 100vh;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 30px 20px;
+            border-radius: 20px;
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+        }
+
+        img.logo {
+            width: 100px;
+            max-width: 80%;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        a.button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px;
+            font-size: 1.1em;
+            text-decoration: none;
+            background: #4CAF50;
+            color: white;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+
+        a.button img.icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 10px;
+        }
+
+        a.button:hover {
+            background: #45a049;
+        }
+
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 1.5em;
+            }
+
+            a.button {
+                font-size: 1em;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <img src="logo.png" alt="Green Lion Logo" class="logo">
+    <h1>Follow Us</h1>
+
+    <a href="https://facebook.com/yourpage" class="button" target="_blank">
+        <img src="facebook-icon.png" alt="Facebook" class="icon"> Facebook
+    </a>
+
+    <a href="https://youtube.com/yourchannel" class="button" target="_blank">
+        <img src="youtube-icon.png" alt="YouTube" class="icon"> YouTube
+    </a>
+
+    <a href="https://tiktok.com/@yourprofile" class="button" target="_blank">
+        <img src="tiktok-icon.png" alt="TikTok" class="icon"> TikTok
+    </a>
+
+</div>
+
+</body>
+</html>
